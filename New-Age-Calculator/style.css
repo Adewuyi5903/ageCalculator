@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap'); 
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    background-color: hsl(0, 0%, 94%);
+    width: 100%;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.err{
+    font-size: 10px;
+    color: red;
+}
+
+.container{
+    max-width: 30rem;
+    min-height: 25rem;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 9.6rem;
+    margin: 5rem auto;
+}
+
+marquee{
+    color: hsl(259, 100%, 65%);
+}
+
+
+.container:hover{
+    border-style: solid;
+    border-color: hsl(259, 100%, 65%);
+    transition: 2s;
+}
+
+.up-input{
+    display: flex;
+    padding: 5%;
+}
+
+.container input{
+    width: 5rem;
+    height: 2.3rem;
+}
+
+
+.up-input input{
+    padding-left: 0.35rem;
+    font-weight: 800;
+    font-size: 1rem;
+    font-style: 'Poppins', sans-serif;
+}
+
+.up-input1 p{
+    margin-bottom: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+    margin-left: 1.1rem;
+}
+
+#day{
+    margin-left: 1.2rem;
+    /* width: 5rem; */
+}
+
+.up-input2 p{
+    margin-bottom: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+    /* margin-left: 1.3rem; */
+}
+
+.up-input2{
+    margin-right: 0.7rem;
+}
+
+/* #month{
+    margin-right: -1.5rem;
+} */
+
+.up-input3 p{
+    margin-bottom: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+}
+
+
+
+.up-input1{
+    padding-left: 1rem;
+    font-weight: 800;
+    margin-right: 0.5rem;
+
+}
+
+hr{
+    margin-left: 3rem;
+    max-width: 75%;
+}
+
+.down-output{
+    margin-left: 3rem;
+    line-height: 0.2;
+    margin-top: -5%
+}
+
+.down-output p span{
+    font-size: 3rem;
+    color: hsl(259, 100%, 65%);
+
+}
+
+.down-output p{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.image-container{
+    background-color: hsl(259, 100%, 65%);
+    margin-left: 24rem;
+    margin-top: -2.5rem;
+    border-radius: 40rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee{
+    color: hsl(259, 100%, 65%);
+}

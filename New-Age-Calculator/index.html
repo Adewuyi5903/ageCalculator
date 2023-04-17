@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      
+        <div class="sub-container">
+            <div class="up-input">
+                <div class="up-input1">
+                  <p>DAYS</p>
+                  <input class="inputjs" id="day" type="number" placeholder="DD"/>
+                  <span id="error1" class="day-err"></span>
+                </div>
+            
+                <div class="up-input2">
+                  <p>MONTHS</p>
+                  <input class="inputjs" id="month" type="number" placeholder="MM"/>
+                  <span id="error2" class="month-err"></span>
+                </div>
+            
+                <div class="up-input3">
+                  <p>YEARS</p>
+                  <input class="inputjs" id="year" type="number" placeholder="YYYY"/>
+                  <span id="error3" class="year-err"></span>
+                </div>
+            </div>
+                
+                    <hr class="line">
+
+                    <div class="image-container"  onclick="ageCalculate()">
+                      <img src="images/icon-arrow.svg" alt="" width="40rem">
+                    </div>
+                
+              <div class="down-output">
+                <p><span id=output-year>- -</span>years</p>
+                <p><span id="output-month">- -</span>months</p>
+                <p><span id="output-day">- -</span>days</p>
+              </div>
+            </div>
+            
+    </div>
+            <div class="attribution">
+                <marquee behavior="" direction="right">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                 Coded by <a href="#">Latifat Adewuyi</a></marquee>
+               </div>
+      <script src="script.js"></script>
+    
+  </body>
+</html>
